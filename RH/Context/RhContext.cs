@@ -7,6 +7,6 @@ namespace RH.Context
     {
         public RhContext(DbContextOptions<RhContext> options) : base(options) { }
         public DbSet<Employee> Employees { get; set; }
-        public object Employee { get; internal set; }
+       
     }
 }

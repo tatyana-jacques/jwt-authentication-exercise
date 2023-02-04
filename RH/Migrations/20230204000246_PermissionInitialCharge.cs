@@ -11,7 +11,7 @@ namespace RH.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.Sql(
-            "INSERT " +
+             "INSERT " +
                   "INTO Permission" +
                            "(name) " +
                  "VALUES" +

@@ -11,7 +11,7 @@ using RH.Context;
 namespace RH.Migrations
 {
     [DbContext(typeof(RhContext))]
-    [Migration("20230202183142_CreateDatabase")]
+    [Migration("20230203235944_CreateDatabase")]
     partial class CreateDatabase
     {
         /// <inheritdoc />

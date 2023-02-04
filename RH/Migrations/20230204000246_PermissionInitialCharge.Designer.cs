@@ -11,8 +11,8 @@ using RH.Context;
 namespace RH.Migrations
 {
     [DbContext(typeof(RhContext))]
-    [Migration("20230202183631_EmployeeInitialCharge")]
-    partial class EmployeeInitialCharge
+    [Migration("20230204000246_PermissionInitialCharge")]
+    partial class PermissionInitialCharge
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

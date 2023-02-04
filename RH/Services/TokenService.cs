@@ -19,7 +19,7 @@ namespace RH.Services
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var issuer = _config.GetValue<dynamic>("Jwt:Issuer");
-            var audience = _config.GetValue<dynamic>("Jwt:Key");
+            var audience = _config.GetValue<dynamic>("Jwt:Audience");
             var keyJwt = _config.GetValue<dynamic>("Jwt:Key");
             var key = Encoding.ASCII.GetBytes(keyJwt);
 
