@@ -1,1 +1,1 @@
-Exercício de implementação de authenticação em API desenvolvido durante o curso DevInHouse do Senai (2022/2023).
+JWT authentication exercise developed during Senai's course DEVinHouse (2022/2023).
